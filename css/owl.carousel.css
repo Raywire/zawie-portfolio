@@ -183,7 +183,7 @@
 }
 
 .group_2_text2 h3 {
-	color: #CFCFCF;
+	color: #a6a6a6;
 	font-size: 0.9em;
 	font-weight: 600;
 	padding-bottom: 10px;
@@ -292,7 +292,7 @@
 	position: absolute;
 	top: 40%;
 	left: -7%;
-	background: url(../images/sprite.png) no-repeat 0px -65px ;
+	background: url(../images/sprite.png) no-repeat 0px -65px;
 }
 
 .owl-next {
