@@ -16,6 +16,15 @@ ul,ol{list-style:none;margin:0;padding:0;}
 .group_1_text_special ul li {
 	margin-bottom: 16px;
 }
+.italics {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
+.black {
+	color: black
+}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
