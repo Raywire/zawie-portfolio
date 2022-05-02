@@ -359,7 +359,7 @@ body {
 .timeline-label h4 {
 	margin-top: 0;
 	font-size: 1.9em;
-	color: #55C1E5;
+	color: #027098;
 	padding: 1em 0em;
 	font-weight: 600;
 }
@@ -398,7 +398,7 @@ body {
 
 .timeline .experience-info p {
 	font-size: 0.9em;
-	color: #8c8c8c;
+	color: #737373;
 	font-weight: 600;
 	line-height: 1.7em;
 }
@@ -522,7 +522,7 @@ body {
 .left-form li {
 	display: block;
 	color: #4D4949;
-	border: 2px solid #CBD0D4;
+	border: 2px solid #74818b;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -631,7 +631,7 @@ textarea {
 }
 
 .right-form h4 {
-	color: #999999;
+	color: #666666;
 	font-size: 1em;
 	font-weight: 600;
 }
@@ -669,7 +669,7 @@ textarea {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	border-radius: 26px;
-	color: #929191;
+	color: #4d4d4d;
 	font-weight: 600;
 }
 
@@ -748,7 +748,7 @@ textarea {
 
 .footer a,
 .footer p {
-	color: #b9bbc6;
+	color: #abadba;
 	text-decoration: none;
 	font-size: 1.3em;
 	-webkit-transition: all 0.3s ease-in-out;

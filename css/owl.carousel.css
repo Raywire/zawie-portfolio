@@ -183,7 +183,7 @@
 }
 
 .group_2_text2 h3 {
-	color: #a6a6a6;
+	color: #737373;
 	font-size: 0.9em;
 	font-weight: 600;
 	padding-bottom: 10px;
@@ -225,10 +225,10 @@
 
 .brows_button_3 a,
 .brows_button_4 a {
-	border: 2px solid #55C1E5;
+	border: 2px solid #027098;
 	font-size: 0.9em;
 	padding: 0.7em 1.5em;
-	color: #5EC7E5;
+	color: #027098;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -242,7 +242,7 @@
 
 .brows_button_3 a:hover,
 .brows_button_4 a:hover {
-	background: #55C1E5;
+	background: #027098;
 	color: #fff;
 }
 
@@ -292,14 +292,14 @@
 	position: absolute;
 	top: 40%;
 	left: -7%;
-	background: url(../images/sprite.png) no-repeat 0px -65px;
+	background: url(../images/arrow-left-thin-circle-outline.png) no-repeat;
 }
 
 .owl-next {
 	position: absolute;
 	top: 40%;
 	right: -7%;
-	background: url(../images/sprite.png) no-repeat -99px -65px;
+	background: url(../images/arrow-right-thin-circle-outline.png) no-repeat;
 }
 
 /* Styling Pagination*/
