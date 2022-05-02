@@ -257,8 +257,11 @@
 	margin: 4% 0% 3% 4%;
 }
 
-.group_3_text p {
+.group_3_text p, .group_3_text blockquote{
 	color: #fff;
+}
+.group_3_text blockquote{
+	color: #000;
 }
 
 .group_1_img img,

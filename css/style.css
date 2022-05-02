@@ -922,6 +922,11 @@ button:hover {
 		width: 92%;
 	}
 
+	.left-form {
+		float: none;
+		width: 100%;
+		margin: 0%;
+	}
 	.right-form {
 		float: none;
 		width: 100%;
