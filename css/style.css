@@ -532,12 +532,12 @@ body {
 }
 
 .left-form li:hover {
-	border: 2px solid #8DD4FF;
+	border: 2px solid #006eb3;
 	color: #343434;
 }
 
 .left-form li:focus {
-	border: 2px solid #8DD4FF;
+	border: 2px solid #006eb3;
 }
 
 .left-form li:active {
@@ -552,7 +552,7 @@ body {
 	width: 90%;
 	padding: 1em 2em 1em 1em;
 	border: none;
-	color: #989898;
+	color: #000;
 	font-size: 15px;
 	float: left;
 	outline: none;
@@ -607,12 +607,13 @@ textarea {
 	width: 45%;
 }
 
-.send {
+button.send {
 	margin: 3em 0em;
 	text-align: right;
 }
 
-.send a {
+button.send {
+	border: none;
 	color: #fff;
 	background: #FC685C;
 	padding: 1em 3em;
@@ -626,7 +627,7 @@ textarea {
 	transition: all 0.3s ease-in-out;
 }
 
-.send a:hover {
+button:hover {
 	background: #EB4334;
 }
 
@@ -1062,11 +1063,11 @@ textarea {
 		resize: none;
 	}
 
-	.send a {
+	button.send {
 		padding: 0.7em 2.2em;
 	}
 
-	.send {
+	button.send {
 		margin: 1.5em 0em;
 		text-align: right;
 	}
@@ -1153,12 +1154,12 @@ textarea {
 		padding: 1em 0em;
 	}
 
-	.send a {
+	button.send {
 		padding: 0.4em 1.5em;
 		font-size: 0.9em;
 	}
 
-	.send {
+	button.send {
 		text-align: center;
 	}
 

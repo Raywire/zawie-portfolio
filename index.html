@@ -783,29 +783,30 @@ License URL: https://creativecommons.org/licenses/by/3.0/
 	<div class="contact" id="contact">
 		<div class="wrap">
 			<h3 class="heading">Contact</h3>
-			<form>
+			<form name="contact" netlify>
 				<div class="left-form">
 					<ul>
 						<li class="name">
-							<a href="#" class="icon user"> </a>
-							<input type="text" placeholder="Name" required="">
+							<span class="icon user"> </span>
+							<input type="text" name="name" placeholder="Name" required="">
 							<div class="clear"> </div>
 						</li>
 						<li class="email">
-							<a href="#" class="icon mail"> </a>
-							<input type="email" placeholder="Email" required="">
+							<span class="icon mail"> </span>
+							<input type="email" name="email" placeholder="Email" required="">
 							<div class="clear"> </div>
 						</li>
 						<div class="clear"> </div>
 						<li>
 							<textarea class="plain buffer"
-								placeholder="Don't forget that kindness is all!"> Don't forget that kindness is all!</textarea>
+								name="message"
+								placeholder="Don't forget that kindness is all!"></textarea>
 							<div class="clear"> </div>
 						</li>
 					</ul>
-					<div class="send">
-						<a href="#">SEND</a>
-					</div>
+					<button type="submit" class="send">
+						SEND
+					</button>
 				</div>
 				<div class="right-form">
 					<h4>LOCATION</h4>
