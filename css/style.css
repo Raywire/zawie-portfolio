@@ -287,14 +287,14 @@ body {
 	position: relative;
 	display: inline-block;
 	margin: 1em;
-	width: 230px;
-	height: 230px;
+	width: 180px;
+	height: 180px;
 	text-align: center;
 }
 
 .chart canvas {
-	width: 230px;
-	height: 230px;
+	width: 180px;
+	height: 180px;
 }
 
 .chart-content {
@@ -810,6 +810,10 @@ button:hover {
 	background: url(../images/top.png) no-repeat right top;
 }
 
+.centertxt {
+	text-align: center;
+}
+
 /******response***********/
 @media only screen and (max-width: 1440px) {
 	.centertxt {
@@ -829,7 +833,7 @@ button:hover {
 	}
 
 	.centertxt {
-		width: 100%;
+		width: 95%;
 	}
 }
 
@@ -1091,11 +1095,6 @@ button:hover {
 	.soc_icons ul li {
 		width: 16%;
 		margin-right: 20px;
-	}
-
-	.chart {
-		width: 240px;
-		height: 200px;
 	}
 }
 
