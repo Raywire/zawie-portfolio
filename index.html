@@ -186,6 +186,18 @@ License URL: https://creativecommons.org/licenses/by/3.0/
 				<div class="down-arrow">
     					<a href="#skills" class="scroll"><span></span></a>
 				</div>
+
+				<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+				<script>
+				$(document).ready(function() {
+    					$('.scroll').on('click', function(event) {
+        					event.preventDefault();
+        					$('html, body').animate({
+            						scrollTop: $($.attr(this, 'href')).offset().top
+        					}, 800);
+    					});
+				});
+				</script>
 			
 				<link rel="stylesheet" type="text/css" href="css/slider.css" />
 				<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
